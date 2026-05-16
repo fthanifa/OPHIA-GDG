@@ -21,7 +21,7 @@ MATCHES = [
     {
         "key": "chk_match_1",
         "startup": "DataShield",
-        "mentor": "Dr. A. Rahman",
+        "mentor": "Ehtisham Raza",
         "synergy": 96,
         "insight": "NLP taxonomy match for 'Fraud Detection Models' and 'Security Protocols'.",
         "tags": ["'Fraud Detection'", "'AI Architecture'", "'AI Technology'"],
@@ -29,7 +29,7 @@ MATCHES = [
     {
         "key": "chk_match_2",
         "startup": "GreenLedger",
-        "mentor": "Prof. S. Nair",
+        "mentor": "Leong Lai Fong",
         "synergy": 88,
         "insight": "Domain overlap in ESG compliance frameworks and RegTech automation pipelines.",
         "tags": ["'RegTech'", "'ESG Compliance'", "'Automation'"],
@@ -37,7 +37,7 @@ MATCHES = [
     {
         "key": "chk_match_3",
         "startup": "MediCore AI",
-        "mentor": "Dr. J. Tan",
+        "mentor": "Weiyuan Liu",
         "synergy": 91,
         "insight": "Shared research background in predictive diagnostics and clinical ML models.",
         "tags": ["'Health AI'", "'ML Diagnostics'", "'Clinical Data'"],
@@ -50,27 +50,27 @@ WORKSPACES = [
 ]
 
 CHECKINS = [
-    {"name": "Dr. A. Rahman", "detail": "90-day Check-in — Complete"},
-    {"name": "Dr. Lim Wei",   "detail": "90-day Check-in — Complete"},
+    {"name": "Yuda Adi Pratama", "detail": "90-day Check-in — Complete"},
+    {"name": "Dr. Poo Kuan Hoong",   "detail": "90-day Check-in — Complete"},
 ]
 
 MENTORS = [
     {
-        "name": "Dr. A. Rahman",
+        "name": "Vriraj Singh",
         "title": "Senior AI Infrastructure Scientist",
         "expertise": ["Fraud Detection", "AI Architecture", "Security Protocols"],
         "status": "Active",
         "partnerships": 3,
     },
     {
-        "name": "Prof. S. Nair",
+        "name": "Saurabh Mishra",
         "title": "RegTech & Compliance Director",
         "expertise": ["RegTech", "ESG Compliance", "Automation"],
         "status": "Active",
         "partnerships": 2,
     },
     {
-        "name": "Dr. J. Tan",
+        "name": "Esther",
         "title": "Clinical ML Research Lead",
         "expertise": ["Health AI", "ML Diagnostics", "Clinical Data"],
         "status": "Active",
@@ -84,14 +84,14 @@ MENTORS = [
         "partnerships": 1,
     },
     {
-        "name": "Prof. R. Krishnan",
+        "name": "Dr. Poo Kuan Hoong",
         "title": "Sustainability & ESG Strategist",
         "expertise": ["ESG Reporting", "Carbon Markets", "Sustainability"],
         "status": "Active",
         "partnerships": 2,
     },
     {
-        "name": "Dr. M. Hassan",
+        "name": "Hernando",
         "title": "Cybersecurity & Zero-Trust Architect",
         "expertise": ["Zero-Trust", "Penetration Testing", "Cloud Security"],
         "status": "Available",
@@ -513,6 +513,19 @@ div.action-btn-container > button:hover {
     box-shadow: 0 0 6px rgba(46,204,113,0.6);
     vertical-align: middle;
 }
+
+/* ── GREEN OVERRIDE FOR THE PRIMARY GENERATION CALL TO ACTION ── */
+div.green-cta-btn > button {
+    background: #2ecc71 !important;
+    color: #ffffff !important;
+    border: 1.5px solid #2ecc71 !important;
+    box-shadow: 0 0 20px rgba(46,204,113,0.4) !important;
+}
+div.green-cta-btn > button:hover {
+    background: #27ae60 !important;
+    border-color: #27ae60 !important;
+    box-shadow: 0 0 28px rgba(39,174,96,0.55) !important;
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -561,7 +574,7 @@ def render_topbar(current_page):
     with c_right:
         st.markdown('''
         <div style="display:flex; gap:0.7rem; align-items:center; justify-content:flex-end; width:100%;">
-            <div class="pill-outline">Admin: Sarah M.</div>
+            <div class="pill-outline">Admin:  vaza</div>
             <div style="position:relative; width:34px; height:34px;
                         border:1px solid rgba(28,43,36,0.22); border-radius:50%;
                         display:flex; align-items:center; justify-content:center;
@@ -626,7 +639,7 @@ def render_dashboard():
         with hdr_l:
             st.markdown('<h2 class="section-title">⚡ Pending AI Linkages</h2>', unsafe_allow_html=True)
         with hdr_r:
-            st.markdown('<div class="action-btn-container">', unsafe_allow_html=True)
+            st.markdown('<div class="action-btn-container green-cta-btn">', unsafe_allow_html=True)
             if st.button("Approve Selected & Generate Programmable Entities"):
                 selected = [m["startup"] for m in MATCHES if st.session_state.get(m["key"], False)]
                 if selected:
@@ -933,7 +946,7 @@ def render_mentors():
                 </div>
                 <div style="font-size:0.78rem; color:#a8c4b0; margin-top:2px;">
                     A linkage request has been sent for <strong style="color:#d0e8d8;">
-                    {st.session_state.propose_submitted}</strong>. Admin Sarah M. will review shortly.
+                    {st.session_state.propose_submitted}</strong>. Admin Vaza will review shortly.
                 </div>
             </div>
         </div>
