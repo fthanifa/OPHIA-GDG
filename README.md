@@ -1,1 +1,1 @@
-# OPHIA-gdg
+# OPHIA-GDG
