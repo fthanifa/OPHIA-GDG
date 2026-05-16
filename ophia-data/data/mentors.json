@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Ehtisham Raza",
+    "title": "AI Security Architect & Serial Founder",
+    "bio": "15 years building AI-powered fraud detection systems and cybersecurity infrastructure for fintech companies across Southeast Asia. Has scaled 3 startups to Series B.",
+    "industry_tags": ["AI Security", "Fintech", "B2B"],
+    "skills": ["Fraud Detection", "AI Architecture", "Security Protocols", "Enterprise SaaS"],
+    "availability_hours": 8,
+    "linkedin": null,
+    "status": "Available",
+    "partnerships": 0,
+    "bio_embedding": null
+  },
+  {
+    "name": "Leong Lai Fong",
+    "title": "RegTech Advisor & Former Bank Negara Regulatory Lead",
+    "bio": "Former regulatory advisor with deep expertise in ESG compliance frameworks and RegTech automation pipelines across ASEAN financial markets.",
+    "industry_tags": ["RegTech", "ESG", "Financial Services"],
+    "skills": ["Regulatory Compliance", "ESG Frameworks", "Automation", "Policy Advisory"],
+    "availability_hours": 6,
+    "linkedin": null,
+    "status": "Available",
+    "partnerships": 0,
+    "bio_embedding": null
+  },
+  {
+    "name": "Weiyuan Liu",
+    "title": "Health AI Researcher & Investor",
+    "bio": "AI researcher turned investor with a background in predictive diagnostics, clinical machine learning models, and health data infrastructure at scale.",
+    "industry_tags": ["Health AI", "MedTech", "Deep Learning"],
+    "skills": ["ML Diagnostics", "Clinical Data", "Predictive Analytics", "Health Infrastructure"],
+    "availability_hours": 5,
+    "linkedin": null,
+    "status": "Available",
+    "partnerships": 0,
+    "bio_embedding": null
+  },
+  {
+    "name": "Faiz Hassan",
+    "title": "B2B SaaS Growth Lead",
+    "bio": "Ecosystem builder with expertise in B2B SaaS scaling, developer tool ecosystems, and cloud infrastructure for Southeast Asian markets.",
+    "industry_tags": ["B2B", "SaaS", "Developer Tools"],
+    "skills": ["Growth Strategy", "Cloud Infrastructure", "Developer Ecosystems", "Market Expansion"],
+    "availability_hours": 10,
+    "linkedin": null,
+    "status": "Available",
+    "partnerships": 0,
+    "bio_embedding": null
+  },
+  {
+    "name": "Sarah Chen",
+    "title": "Climate Tech Investor",
+    "bio": "Deep tech investor with expertise in climate tech, sustainability metrics, and green energy startup scaling across ASEAN.",
+    "industry_tags": ["Climate Tech", "Sustainability", "ESG"],
+    "skills": ["Climate Strategy", "ESG Metrics", "Venture Scaling", "Green Energy"],
+    "availability_hours": 4,
+    "linkedin": null,
+    "status": "Available",
+    "partnerships": 0,
+    "bio_embedding": null
+  },
+  {
+    "name": "Razif Kamaruddin",
+    "title": "ML Infrastructure Lead, ex-Google Brain",
+    "bio": "CTO background in machine learning infrastructure, LLM deployment, and NLP systems at enterprise scale. Previously at Google Brain.",
+    "industry_tags": ["AI/ML", "NLP", "Infrastructure"],
+    "skills": ["LLM Deployment", "NLP Systems", "ML Infrastructure", "Deep Learning"],
+    "availability_hours": 6,
+    "linkedin": null,
+    "status": "Available",
+    "partnerships": 0,
+    "bio_embedding": null
+  },
+  {
+    "name": "Priya Nair",
+    "title": "EdTech Founder (2x Exits)",
+    "bio": "EdTech founder with two exits. Expertise in learning platform architecture, curriculum design technology, and educational marketplace scaling.",
+    "industry_tags": ["EdTech", "Marketplace", "Consumer"],
+    "skills": ["Platform Architecture", "Curriculum Tech", "Marketplace Scaling", "Product Strategy"],
+    "availability_hours": 8,
+    "linkedin": null,
+    "status": "Available",
+    "partnerships": 0,
+    "bio_embedding": null
+  }
+]

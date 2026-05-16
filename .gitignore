@@ -1,1 +1,6 @@
-
+echo ".env" >> .gitignore
+echo "firebase-adminsdk.json" >> .gitignore
+echo "workspace-credentials.json" >> .gitignore
+echo "token.json" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .gitignore
