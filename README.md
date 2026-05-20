@@ -3,7 +3,7 @@
 
 > *"We aren't a dating app for startups. We are the autonomous operating system for ecosystem administrators."*
 
-Built for **Build With AI 2026 KL — MyHack** in response to the Cradle Fund problem statement: *Automating Ecosystem Linkages Instead of Manual Coordination.*
+Built for **GDG KL Build With AI 2026 KL — MyHack** in response to the Cradle Fund problem statement: *Automating Ecosystem Linkages Instead of Manual Coordination.*
 
 ---
 
